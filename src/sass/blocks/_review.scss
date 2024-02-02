@@ -1,0 +1,45 @@
+.review {
+    padding: 140px 0;
+    &__wrapper {
+        padding: 103px 50px 120px 50px;
+        min-height: 675px;
+        background: #F4F0EC;
+        border-radius: 70px;
+    }
+    &__title {
+        width: 480px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 45px;
+    }
+    &__items {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        width: 355px;
+        min-height: 287px;
+        padding: 50px 30px 45px 35px;
+        background: #FFFFFF;
+        border-radius: 30px;
+        &_title {
+            display: flex;
+        }
+        &_name {
+            margin-left: 20px;
+            span {
+                font-family: 'Jost';
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 27px;
+            }
+        }
+        &_text {
+            margin-top: 25px;
+            font-family: 'Jost';
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+        }
+    }
+}

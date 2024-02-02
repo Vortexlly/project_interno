@@ -1,0 +1,25 @@
+{
+  "people": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "name": "asdasd",
+      "phone": "(380) 324-3223",
+      "email": "bubliki@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "asdasd",
+      "phone": "(380) 324-3223",
+      "email": "bubliki@gmail.com",
+      "id": 5
+    }
+  ]
+}

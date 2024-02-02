@@ -1,0 +1,43 @@
+@keyframes arrow {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes arrowBack {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+@keyframes arrowRight {
+    from {
+        transform: translateX(0px);
+    }
+    to {
+        transform: translateX(30px);
+    }
+}
+@keyframes arrowRightBack {
+    from {
+        transform: translateX(30px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+.fadeIn {
+    animation: fadeIn 0.5s;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

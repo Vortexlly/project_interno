@@ -1,0 +1,25 @@
+.title {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 39px;
+    &_fsz50 {
+        font-size: 50px;
+        line-height: 65px;
+    }
+    &_fsz45 {
+        font-size: 45px;
+        line-height: 58px;
+    }
+}
+.text {
+    margin-top: 17px;
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    &_left {
+        text-align: start;
+    }
+}

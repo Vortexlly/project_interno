@@ -1,0 +1,66 @@
+.btn {
+    position: relative;
+    padding-left: 34px;
+    width: 207px;
+    height: 71px;
+    background: #292F36;
+    border: 0;
+    border-radius: 18px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: left;
+    color: #FFFFFF;
+    transition: 0.5s all;
+    cursor: pointer;
+    &:hover {
+        background: #CDA274;
+        &::after {
+            background: url(../icons/black_arrow.svg) center (center / cover) no-repeat;
+            animation-name: arrow;
+            animation-duration: 1s;
+        }
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        left: 145px;
+        top: 17px;
+        display: block;
+        width: 30px;
+        height: 36px;
+        background: url(../icons/arrow.svg) center (center / cover) no-repeat;
+        transition: 0.5s all;
+        animation-name: arrowBack;
+        animation-duration: 1s;
+    }
+    &_wide {
+        width: 263px;
+        &::after {
+            left: 210px;
+        }
+    }
+    &_coffee {
+        background: #CDA274;
+        &::after {
+        background: url(../icons/black_arrow.svg) center (center / cover) no-repeat;
+        transition: 0.5s all;
+        }
+        &:hover {
+            background: #464d55;
+            &::after {
+                background: url(../icons/arrow.svg) center (center / cover) no-repeat;
+            }
+        }
+    }
+    &_form {
+        padding: 0;
+        text-align: center;
+        height: 71px;
+        &::after {
+            display: none;;
+        }
+    }
+}

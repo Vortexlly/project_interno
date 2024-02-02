@@ -1,0 +1,39 @@
+.ratings {
+    min-height: 475px;
+    margin-top: 80px;
+    background: #F4F0EC;
+    &__wrapper {
+        padding: 140px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item {
+        position: relative;
+        width: 288px;
+        &::after {
+            content: '';
+            display: inline-block;
+            width: 1px;
+            height: 195px;
+            position: absolute;
+            left: 288px;
+            top: 0;
+            background: #CDA274;
+        }
+        &:nth-child(4) {
+            &::after {
+                content: '';
+                display: none;
+            }
+        }
+    }
+    &__num {
+        font-family: 'DM Serif Display';
+        font-weight: 400;
+        font-size: 85px;
+        line-height: 128px;
+        text-align: center;
+        color: #CDA274;
+    }
+}

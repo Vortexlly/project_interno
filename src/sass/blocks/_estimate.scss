@@ -1,0 +1,44 @@
+.estimate {
+    &__wrapper {
+        min-height: 635px;
+        display: grid;
+        grid-template-rows: 635px;
+        grid-template-columns: 608px 592px;
+    }
+    &__item {
+        padding: 13px 77px 36px 0;
+    }
+    &__text {
+        margin-top: 42px;
+    }
+    &__phone {
+        position: relative;
+        margin-top: 46px;
+        margin-left: 113px;
+        font-family: 'Jost';
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        span {
+            font-size: 22px;
+            line-height: 33px;
+        }
+        &::before {
+            content: '';
+            position: absolute;
+            display: inline-block;
+            top: -4px;
+            left: -112px;
+            width: 93px;
+            height: 93px;
+            border-radius: 100px;
+            background: url(../icons/phone.svg) center (center / cover) no-repeat;
+        }
+    }
+    &__btn {
+        margin-top: 68px;
+    }
+    &__bg {
+        background: url(../img/bg/scnd_bg.png) center (center / cover) no-repeat;
+    }
+}

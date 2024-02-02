@@ -1,0 +1,55 @@
+.projects {
+    margin-top: 100px;
+    &__title {
+        text-align: center;
+    }
+    &__descr {
+        width: 786px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    &__wrapper {
+        margin-top: 70px;
+        display: grid;
+        grid-template: repeat(2, 757px) / repeat(2, 590px);
+        row-gap: 60px;
+        column-gap: 20px;
+    }
+    &__item {
+        position: relative;
+        &-title {
+            margin-top: 24px;
+            margin-bottom: 0;
+        }
+        &-text {
+            margin-top: 0;
+            text-align: left;
+        }
+        &-descr {
+            position: relative;
+            transition: 0.5s all;
+            cursor: pointer;
+            span {
+                position: absolute;
+                top: 5px;
+                left: 520px;
+                display: inline-block;
+                color: #292f36;
+                background: #f4f0ec;
+                border-radius: 100%;
+                padding: 1.3rem 1.4rem;
+                width: 70px;
+                height: 70px;
+            }
+            svg {
+                transition: 0.5s all;
+            }
+            &:hover {
+                svg {
+                    color: #CDA274;
+                }
+                color: #CDA274;
+            }
+        }
+    }
+}

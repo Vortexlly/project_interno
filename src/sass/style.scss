@@ -1,0 +1,36 @@
+@import 'base/animations';
+
+body {
+    background-color: #F5F5F5;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.overflow {
+    overflow: hidden
+}
+
+@import 'blocks/title-text';
+@import 'blocks/buttons';
+@import 'blocks/container';
+@import 'blocks/promo';
+@import 'blocks/more';
+@import 'blocks/estimate';
+@import 'blocks/review';
+@import 'blocks/brand';
+@import 'blocks/projects';
+@import 'blocks/ratings';
+@import 'blocks/blog';
+@import 'blocks/contact';
+@import 'blocks/footer';
+@import 'blocks/modal';
+@import 'blocks/media';

@@ -1,0 +1,75 @@
+.promo {
+    .header {
+        height: 90px;
+        display: flex;
+        justify-content: space-between;
+        &__logo {
+            display: flex;
+            align-items: center;
+            .logo {
+                width: 34px;
+                height: 34px;
+            }
+            &-name {
+                margin-left: 10px;
+                font-family: 'DM Serif Display';
+                font-weight: 400;
+                font-size: 40px;
+            }
+            &-link {
+                height: 50px;
+                display: flex;
+                align-items: center;
+                color: #292F36;
+            }
+        }
+        .nav {
+            display: flex;
+            align-items: center;
+        }
+        &__menu {
+            width: 540px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &__link {
+            font-family: 'Jost';
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            color: #292F36;
+            transition: 0.5s all;
+            &:hover {
+                color: #CDA274;
+            }
+        }
+        .hamburger {
+            display: none;
+        }
+    }
+    &__wrapper {
+        width: 1440px;
+        padding: 188px 725px 260px 120px;
+        min-height: 831px;
+        margin: 0 auto;
+        background: url(../img/bg/main_bg.png);
+        &__text {
+            width: 600px;
+        }
+        &__title {
+            font-family: 'DM Serif Display';
+            font-weight: 400;
+            font-size: 80px;
+            line-height: 96px;
+            margin-bottom: 20px;
+        }
+        &__subtitle {
+            font-family: 'Jost';
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 33px;
+            margin-bottom: 35px;
+        }
+    }
+}
